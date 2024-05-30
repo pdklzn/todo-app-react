@@ -16,6 +16,7 @@ const AddTodoForm = () => {
             onChange={e => setValue(e.target.value)}
             />
             <button className='btn btn-success mb-2'>Submit</button>
+            <button>Reset</button>
         </form>
     );
 };
